@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.h1_main {
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form div:first-of-type {
+    margin-top: 20px;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100px;
+}

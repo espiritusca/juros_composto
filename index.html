@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <h1 class="h1_main">Ciclic</h1>
+
+        <form>
+
+            <h2>Simulador</h2>
+
+            <div>
+                <label for="name_input">Nome</label> 
+                <input type="text" id="name_input" name="name">
+            </div>
+
+            <div>
+                <label for="monthly_fee_input">Mensalidade R$</label> 
+                <input type="number" id="monthly_fee_input" name="monthly_fee" min="1" step="0.01" placeholder="Ex: 100,00">
+            </div>    
+
+            <div>
+                <label for="interest_rate_input">Taxa de juros</label> 
+                <input type="number" id="interest_rate_input" name="interest_rate" min="1" step="0.01" placeholder="Ex: 5,5">
+            </div>
+            
+            <div>
+                <label for="contribution_time_select">Tempo de contribuição</label>
+                <select id="contribution_time_select" name="contribution_time">
+
+                    <option value="1">1 ano</option>
+                    <option value="2">2 anos</option>
+                    <option value="3">3 anos</option>
+                    <option value="4">4 anos</option>
+                    <option value="5">5 anos</option>
+                    <option value="6">6 anos</option>
+                    <option value="7">7 anos</option>
+                    <option value="8">8 anos</option>
+                    <option value="9">9 anos</option>
+                    <option value="10">10 anos</option>
+                    <option value="20">20 anos</option>
+                    <option value="30">30 anos</option>
+
+                </select>
+            </div>
+
+            <button type="submit">Simular</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
