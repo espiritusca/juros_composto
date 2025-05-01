@@ -20,6 +20,11 @@ form div {
     margin-bottom: 10px;
 }
 
+.invalid_field {
+    border: 2px solid red;
+    outline: none;
+}
+
 form div:first-of-type {
     margin-top: 20px;
 }

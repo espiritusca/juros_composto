@@ -19,23 +19,23 @@
 
             <div>
                 <label for="name_input">Nome</label> 
-                <input type="text" id="name_input" name="name">
+                <input type="text" id="name_input" name="name" required>
             </div>
 
             <div>
                 <label for="monthly_fee_input">Mensalidade R$</label> 
-                <input type="number" id="monthly_fee_input" name="monthly_fee" min="1" step="0.01" placeholder="Ex: 100,00">
+                <input type="number" id="monthly_fee_input" name="monthly_fee" min="1" step="0.01" placeholder="Ex: 100,00" required>
             </div>    
 
             <div>
                 <label for="interest_rate_input">Taxa de juros</label> 
-                <input type="number" id="interest_rate_input" name="interest_rate" min="1" step="0.01" placeholder="Ex: 5,5">
+                <input type="number" id="interest_rate_input" name="interest_rate" min="1" step="0.01" placeholder="Ex: 5,5" required>
             </div>
             
             <div>
                 <label for="contribution_time_select">Tempo de contribuição</label>
-                <select id="contribution_time_select" name="contribution_time">
-
+                <select id="contribution_time_select" name="contribution_time" required>
+                    <option value="" selected disabled hidden>Selecione uma opção</option>
                     <option value="1">1 ano</option>
                     <option value="2">2 anos</option>
                     <option value="3">3 anos</option>
@@ -57,6 +57,9 @@
         </form>
 
     </main>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
