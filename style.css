@@ -21,8 +21,8 @@ form div {
 }
 
 .invalid_field {
-    border: 2px solid red;
-    outline: none;
+    outline: 2px solid red;
+    outline-offset: -1px;
 }
 
 form div:first-of-type {
