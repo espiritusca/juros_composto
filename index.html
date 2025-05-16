@@ -17,19 +17,19 @@
 
             <h2>Simulador</h2>
 
-            <div>
+            <div class="input_div">
                 <label for="name_input">Nome</label> 
                 <input type="text" id="name_input" name="name" required>
             </div>
 
             <div>
                 <label for="monthly_fee_input">Mensalidade R$</label> 
-                <input type="number" id="monthly_fee_input" name="monthly_fee" min="1" placeholder="Ex: 100,00" required>
+                <input type="text" id="monthly_fee_input" name="monthly_fee" placeholder="Ex: 100,00" required>
             </div>    
 
             <div>
                 <label for="interest_rate_input">Taxa de juros %</label> 
-                <input type="number" id="interest_rate_input" name="interest_rate" min="1" placeholder="Ex: 5,5" required>
+                <input type="text" id="interest_rate_input" name="interest_rate" placeholder="Ex: 5,5" required>
             </div>
             
             <div>
@@ -55,6 +55,8 @@
             <button type="submit">Simular</button>
 
         </form>
+
+        <div class="result"></div>
 
     </main>
 
